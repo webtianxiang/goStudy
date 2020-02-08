@@ -36,6 +36,26 @@ func main() {
 	// 3.通道（channel）只返回通道内的值
 	s := "tian田翔xiang"
 	for j, c := range s {
-		fmt.Printf("%v %c\n", j, c)
+		fmt.Printf("%v %c\t", j, c)
 	}
+	fmt.Println()
+	// 跳出for循环
+	m := 0
+	for ; m < 10; m++ {
+		if m == 5 {
+			break // 跳出for循环
+		}
+		fmt.Printf("%d ", m)
+	}
+	fmt.Printf("m的值为：%d", m)
+	fmt.Println()
+	// 跳过此次for循环，不执行此次for循环，直接执行下一次for循环
+	j = 0
+	for ; j < 10; j++ {
+		if j == 5 {
+			continue
+		}
+		fmt.Printf("%d ", j)
+	}
+	fmt.Println()
 }
