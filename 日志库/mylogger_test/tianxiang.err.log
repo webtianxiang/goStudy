@@ -1,0 +1,12 @@
+[2020-02-28 17:44:36] [ERROR] [main.go:main:34] 这是一条error日志,1001:tianxiang
+[2020-02-28 17:44:36] [FATAL] [main.go:main:35] 这是一条fatal日志,1001:tianxiang
+[2020-02-28 17:44:37] [ERROR] [main.go:main:34] 这是一条error日志,1001:tianxiang
+[2020-02-28 17:44:37] [FATAL] [main.go:main:35] 这是一条fatal日志,1001:tianxiang
+[2020-02-28 17:44:38] [ERROR] [main.go:main:34] 这是一条error日志,1001:tianxiang
+[2020-02-28 17:44:38] [FATAL] [main.go:main:35] 这是一条fatal日志,1001:tianxiang
+[2020-02-28 17:44:39] [ERROR] [main.go:main:34] 这是一条error日志,1001:tianxiang
+[2020-02-28 17:44:39] [FATAL] [main.go:main:35] 这是一条fatal日志,1001:tianxiang
+[2020-02-28 17:44:40] [ERROR] [main.go:main:34] 这是一条error日志,1001:tianxiang
+[2020-02-28 17:44:40] [FATAL] [main.go:main:35] 这是一条fatal日志,1001:tianxiang
+[2020-02-28 17:45:00] [ERROR] [main.go:main:34] 这是一条error日志,1001:tianxiang
+[2020-02-28 17:45:00] [FATAL] [main.go:main:35] 这是一条fatal日志,1001:tianxiang

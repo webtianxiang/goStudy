@@ -7,9 +7,9 @@ package main
 // 如果多个包都定义了init()方法，最后被引入的包的init()先执行，以此内推，直至执行完，再执行main函数
 import (
 	// 引用目录从goPath的src目录下开始找
-	"goStudy/包package/test"
 	// 起别名
-	test2 "goStudy/包package/test"
+	"goStudy/Go基本知识学习/包package/test"
+	test2 "goStudy/Go基本知识学习/包package/test"
 	// go语言中禁止循环导入
 )
 
