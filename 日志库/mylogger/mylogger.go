@@ -12,6 +12,16 @@ import (
 // LogLevel 往终端打印日志信息
 type LogLevel uint16
 
+// Logger 公用接口类型
+type Logger interface {
+	Debug(format string, a ...interface{})
+	Trace(format string, a ...interface{})
+	Info(format string, a ...interface{})
+	Warning(format string, a ...interface{})
+	Error(format string, a ...interface{})
+	Fatal(format string, a ...interface{})
+}
+
 // 定义日志级别
 const (
 	UNKOWN LogLevel = iota
